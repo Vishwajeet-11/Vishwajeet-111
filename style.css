@@ -1,10 +1,12 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
 }
 
 #particles-js{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.925);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -14,17 +16,18 @@
   margin-left: 25%;
   position: absolute;
   color: rgba(240, 248, 255, 0.411);
-  font-family: sans-serif;
 }
 
 .details h2{
-  font-size: 30px;
+  font-size: 50px;
   font-weight: normal;
 }
 .details h5{
   font-weight: lighter;
+  font-size: 25px;
 }
 
-#mainNavbar {
-  margin: 20px;
+.details:hover{
+  color: rgb(240, 248, 255);
+  transition: 0.8s;
 }
