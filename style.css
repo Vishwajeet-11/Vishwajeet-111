@@ -24,6 +24,7 @@
 .details h5{
   font-weight: lighter;
 }
-nav {
-  padding: 20px;
+
+#mainNavbar {
+  margin: 20px;
 }
