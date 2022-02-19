@@ -3,6 +3,7 @@
   padding: 0;
   font-family: 'VT323', monospace;
   font-size: 20px;
+  width: auto;
 }
 
 #particles-js{
@@ -13,21 +14,25 @@
 }
 .details{
   margin-top: 45vh;
-  margin-left: 25%;
+  /* margin-left: 25%; */
   position: absolute;
   color: rgba(240, 248, 255, 0.411);
+  margin-left: 50px;
 }
 
 .details h2{
   font-size: 50px;
   font-weight: normal;
+  
 }
 .details h5{
   font-weight: lighter;
   font-size: 25px;
+  
 }
 
-.details:hover{
-  color: rgb(240, 248, 255);
-  transition: 0.8s;
+.details:hover {
+  color: rgba(240, 248, 255, 0.671);
+  transition: 0.5s;
+  cursor: default;
 }
