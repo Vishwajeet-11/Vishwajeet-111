@@ -4,14 +4,16 @@
   font-family: 'VT323', monospace;
   font-size: 20px;
   width: auto;
+  
 }
 
 #particles-js{
   background-color: rgba(0, 0, 0, 0.925);
   height: 100vh;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
 }
+
 .details{
   margin-top: 45vh;
   /* margin-left: 25%; */
@@ -35,4 +37,14 @@
   color: rgba(240, 248, 255, 0.671);
   transition: 0.5s;
   cursor: default;
+}
+.pr-details{
+  margin-top: 20vh;
+  /* margin-left: 25%; */
+  position: absolute;
+  color: rgba(240, 248, 255, 0.671);
+  margin-left: 50px;
+}
+.pr-details ul {
+  margin-bottom: 50px;
 }
