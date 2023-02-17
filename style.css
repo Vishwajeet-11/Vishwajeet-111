@@ -1,10 +1,9 @@
 *{
-  margin: 0;
+  margin-bottom: -10px;
   padding: 0;
   font-family: 'VT323', monospace;
   font-size: 20px;
-  width: auto;
-  
+  width: auto;  
 }
 
 #particles-js{
@@ -34,7 +33,7 @@
 }
 
 .details:hover {
-  color: rgba(240, 248, 255, 0.671);
+  color: rgba(255, 255, 255, 0.993);
   transition: 0.5s;
   cursor: default;
 }
@@ -47,4 +46,25 @@
 }
 .pr-details ul {
   margin-bottom: 50px;
+}
+
+.pr-details h2:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+  cursor: default;
+}
+
+@media (max-width:600px){
+  #particles-js{
+    background-color: rgba(0, 0, 0, 0.925);
+    height: 200vh;
+    margin: 0;
+    padding: 0;
+    background-size:cover;
+    background-position: center;
+    margin-right: -10px;
+  }
+  .pr-details{
+    margin-left: 5px;
+  }
 }
