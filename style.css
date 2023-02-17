@@ -5,7 +5,6 @@
   font-size: 20px;
   width: auto;  
     
-  overflow-x: hidden;
 }
 
 #particles-js{
@@ -57,6 +56,9 @@
 }
 
 @media (max-width:600px){
+  *{
+    overflow-x: hidden;
+  }
   #particles-js{
     background-color: rgba(0, 0, 0, 0.925);
     height: 200vh;
@@ -65,6 +67,7 @@
     background-size:cover;
     background-position: center;
     margin-right: -10px;
+    
   }
   .pr-details{
     margin-left: 5px;
