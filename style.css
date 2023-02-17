@@ -4,6 +4,8 @@
   font-family: 'VT323', monospace;
   font-size: 20px;
   width: auto;  
+    
+  overflow-x: hidden;
 }
 
 #particles-js{
@@ -66,5 +68,8 @@
   }
   .pr-details{
     margin-left: 5px;
+    margin-right: 10px;
   }
 }
+
+
